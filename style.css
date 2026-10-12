@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+
+}
+.container{
+    background-color:rgb(37, 40, 50);
+height: 900;
+width: 1100px;
+margin: auto;
+padding:20px ;
+}
+.container{
+
+    background-image: url(./imges/assets/night.jpg);
+     background-size:contain;
+    background-position:center;
+    background-repeat: repeat;
+}
+.card{
+background-color:rgb(45, 48, 66);
+height: 500px;
+width: 900px;
+margin:  20px auto;
+padding-top: 20px;
+position: relative;
+}
+
+.text {
+     width: 400px;
+    margin-left: 450px;
+    text-align: right;
+    padding-top:200px ;
+   padding-right:30px;
+   font-family:monospace;
+   font-size: 20px;
+}
+
+ .circle{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: black;
+ }  
+.center {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left:50px ;
+    width: 100%;
+}
+
+.icons{
+ height: 30px;
+    width: 100%;
+    text-align: right;
+    padding-right: 20px;
+}
+.orange{
+    background-color:rgb(255, 107, 61);
+    height: 480px;
+    width: 450px;
+    border-radius: 0 250px 250px 0;
+    margin-left: 0;
+    position: absolute;
+    left: 0;
+top: 20px;
+margin-top: 0;
+}
+.orange img{
+    width: 600px;
+    height: 550px;
+     padding: 50px;
+     margin: auto;
+     display: block;
+    margin-left: 0;
+}
